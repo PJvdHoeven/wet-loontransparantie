@@ -52,7 +52,8 @@
   h2.sec{font-size:20px;margin:0 0 4px;display:flex;align-items:center;gap:12px;}
   .icon-badge{flex:0 0 auto;width:38px;height:38px;border-radius:10px;background:var(--purple-tint);display:flex;align-items:center;justify-content:center;color:var(--purple);}
   .icon-badge svg{width:21px;height:21px;}
-  h2.sec .num{color:var(--purple);font-variant-numeric:tabular-nums;font-weight:700;font-size:14.5px;background:var(--purple-tint);border-radius:20px;padding:3px 10px;}
+  h2.sec .num{color:var(--purple-tint);font-variant-numeric:tabular-nums;font-weight:800;font-size:42px;line-height:1;background:none;border-radius:0;padding:0;}
+  .band-title.num-head{display:flex;align-items:center;gap:14px;}
   .sec-intro{color:var(--ink-soft);font-size:14px;margin:6px 0 18px;max-width:760px;}
   h3.sub{font-size:15px;margin:22px 0 8px;color:var(--purple);}
   p{font-size:14.6px;margin:0 0 12px;max-width:760px;}
@@ -1151,7 +1152,7 @@
     <section class="block band" id="rec-flow">
     <div class="band-inner">
     <p class="band-eyebrow">Van vacature tot overdracht</p>
-    <h3 class="band-title">Recruitmentproces</h3>
+    <h3 class="band-title num-head"><span class="ed-num">1</span>Recruitmentproces</h3>
     <p class="band-lede">Het proces start bij de vacature en eindigt bij de overdracht aan de administratie. Is de werving niet goed ingericht, dan kan medewerkers- of salarisadministratie dat achteraf niet meer herstellen.</p>
 
     <div class="proc-line">
@@ -1321,7 +1322,7 @@ We zien je op [datum/tijd]. Tot dan!"</p>
     <section class="block band tint" id="info-recht">
     <div class="band-inner">
     <div class="sec-header-row">
-      <h3 class="band-title" style="margin:0">Informatierecht van werknemers</h3>
+      <h3 class="band-title num-head" style="margin:0"><span class="ed-num">2</span>Informatierecht van werknemers</h3>
       <span class="term-badge">⏱ Maximaal 2 maanden</span>
     </div>
     <p class="band-lede" style="margin-top:10px">Dit is een ander traject dan de recruitmentflow hierboven: geen nieuwe aanstelling, maar een schriftelijk verzoek van een zittende werknemer om inzicht in de eigen beloning ten opzichte van het gemiddelde. Het gaat nooit om het salaris van één met naam genoemde collega.</p>
@@ -1363,6 +1364,7 @@ We zien je op [datum/tijd]. Tot dan!"</p>
 
     <section class="block band" id="afronding">
     <div class="band-inner">
+    <h3 class="band-title num-head"><span class="ed-num">3</span>Afronding</h3>
     <div class="closing-block">
       <div>
         <h4>Goed om te onthouden</h4>
@@ -1430,7 +1432,7 @@ We zien je op [datum/tijd]. Tot dan!"</p>
     <section class="block band" id="pp-doel" style="margin-top:0">
     <div class="band-inner">
     <p class="band-eyebrow">Waarom dit project</p>
-    <h3 class="band-title">Doel en scope</h3>
+    <h3 class="band-title num-head"><span class="ed-num">1</span>Doel en scope</h3>
     <p class="band-lede"><b>Doel:</b> aantoonbaar voldoen aan de EU-richtlijn loontransparantie en de Nederlandse implementatie, met het lopende functiehuis-traject als hefboom in plaats van een losse compliance-laag erbovenop.</p>
     <div class="scope-grid">
       <div class="scope-item"><span class="si-num">1</span><h4>Functiehuis en functiewaardering</h4><p>FWG-indeling actueel en onderhouden, als basis onder de hele beloningsstructuur.</p></div>
@@ -1444,7 +1446,7 @@ We zien je op [datum/tijd]. Tot dan!"</p>
 
     <section class="block band tint" id="pp-uitgangspunten">
     <div class="band-inner">
-    <h3 class="band-title">Uitgangspunten</h3>
+    <h3 class="band-title num-head"><span class="ed-num">2</span>Uitgangspunten</h3>
     <div class="principles-grid">
       <div class="principle-card"><b>Functiehuis als fundament, implementatie parallel</b><span>Het functiehuis (FWG) vormt een belangrijke basis voor de beloningsstructuur en de beoordeling van gelijk of gelijkwaardig werk. De afronding daarvan hoeft niet te worden afgewacht voor maatregelen die al zelfstandig kunnen worden voorbereid of ingevoerd, zoals het recruitmentproces, het inschalingskader, het informatierecht en de inrichting van beloningsdata. Deze werkstromen lopen daarom zoveel mogelijk parallel.</span></div>
       <div class="principle-card"><b>Alle beloningscomponenten in beeld</b><span>Niet alleen het basisloon, maar ook toepasselijke aanvullende en variabele looncomponenten worden meegenomen. Basisloon, aanvullende/variabele beloning en totaal loonniveau moeten afzonderlijk analyseerbaar zijn.</span></div>
@@ -1458,7 +1460,7 @@ We zien je op [datum/tijd]. Tot dan!"</p>
 
     <section class="block band" id="pp-organisatie">
     <div class="band-inner">
-    <h3 class="band-title">Projectorganisatie</h3>
+    <h3 class="band-title num-head"><span class="ed-num">3</span>Projectorganisatie</h3>
     <div class="org-line">
       <div class="ol-node">Opdrachtgever<span>Manager M&amp;O</span></div>
       <span class="ol-arrow">→</span>
@@ -1480,7 +1482,7 @@ We zien je op [datum/tijd]. Tot dan!"</p>
 
     <section class="block band tint" id="pp-roadmap">
     <div class="band-inner">
-    <h3 class="band-title">Roadmap</h3>
+    <h3 class="band-title num-head"><span class="ed-num">4</span>Roadmap</h3>
     <p class="sec-intro" style="margin:6px 0 10px">4 fasen. Werkstromen lopen waar mogelijk parallel; afhankelijkheden zijn alleen opgenomen waar dat inhoudelijk noodzakelijk is. De exacte duur hangt af van de voortgang van de verschillende werkstromen en de definitieve wet- en regelgeving.</p>
     <div class="rm-legend">
       <span class="lg-item"><span class="lg-dot intern"></span>Intern richtpunt (afhankelijk van voortgang Odion)</span>
@@ -1510,7 +1512,7 @@ We zien je op [datum/tijd]. Tot dan!"</p>
 
     <section class="block band" id="pp-fasen">
     <div class="band-inner">
-    <h3 class="band-title">Fasen in detail</h3>
+    <h3 class="band-title num-head"><span class="ed-num">5</span>Fasen in detail</h3>
     <div class="phase-grid">
       <div class="phase-card">
         <div class="phase-label" style="margin:0 0 10px"><span class="ph">Fase 1</span><span class="pht">Direct voorbereiden</span></div>
@@ -1569,7 +1571,7 @@ We zien je op [datum/tijd]. Tot dan!"</p>
 
     <section class="block band tint" id="pp-besluiten">
     <div class="band-inner">
-    <h3 class="band-title">Kernbeslissingen per fase</h3>
+    <h3 class="band-title num-head"><span class="ed-num">6</span>Kernbeslissingen per fase</h3>
     <p class="sec-intro" style="margin:2px 0 10px">Het besluitmoment waarop elke fase wordt afgesloten en de volgende start.</p>
     <div class="decision-cards">
       <div class="decision-card"><span class="dc-tag">Fase 1</span><b>Basis geaccordeerd</b>Eigenaar, rolverdeling en de kaders voor inschaling en informatierecht bevestigd; start Fase 2 vrijgegeven. Recruitment- en informatierechtproces lopen parallel door.</div>
@@ -1582,7 +1584,7 @@ We zien je op [datum/tijd]. Tot dan!"</p>
 
     <section class="block band" id="pp-succes">
     <div class="band-inner">
-    <h3 class="band-title">Succesfactoren &amp; risico's</h3>
+    <h3 class="band-title num-head"><span class="ed-num">7</span>Succesfactoren &amp; risico's</h3>
     <div class="two-col-panels">
       <div>
         <h4>Kritische succesfactoren</h4>
